@@ -1,6 +1,4 @@
-/**
- * Created by Leitn on 08.10.2016.
- */
+
 import java.util.Scanner;
 
 public class Aufgabe19 {

@@ -1,6 +1,4 @@
-/**
- * Created by Leitn on 08.10.2016.
- */
+
 public class Aufgabe10 {
     public static void main (String[] args) {
 
