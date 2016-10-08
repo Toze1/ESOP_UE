@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class Aufgabe12 {
+public class Aufgabe12 { //TODO
 
     static Scanner sc = new Scanner(System.in);
 
