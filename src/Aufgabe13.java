@@ -20,13 +20,15 @@ public class Aufgabe13 {
         System.out.print("Geben Sie für einen beliebigen Punkt q ein: ");
         double q = sc.nextInt();
         
-        //Deine Berechnung scheint hier falsch zu sein
-        //double v = ((p - x)*(p - x))+((y - q)+(y - q)); // (p-x)^2 + (q+y)^2 ... dann vergleichen mit r^2  ... wenn < drin, = drauf, > außerhalb
-        
+        //Falsche Formel fixed
+        double w = ((p - x)*(p - x))+((q - y)*(q - y)); // (p-x)^2 + (q+y)^2 ... dann vergleichen mit r^2  ... wenn < drin, = drauf, > außerhalb
+
+
         //Das wäre die richtige Berechnung:
-        double v = (java.lang.Math.abs((p - x) * (p - x))) + (java.lang.Math.abs((y - q) * (y - q)));
-        
-        
+        double v = (((p - x) * (p - x))) + (((y - q) * (y - q)));
+
+        System.out.println(v+" "+w);
+
         double rr = r*r;
               if (v < rr )
                   System.out.println("Punkt liegt innerhalb");
