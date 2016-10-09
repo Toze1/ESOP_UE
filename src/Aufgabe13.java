@@ -27,7 +27,7 @@ public class Aufgabe13 {
         //Das wäre die richtige Berechnung:
         double v = (((p - x) * (p - x))) + (((y - q) * (y - q)));
 
-        System.out.println(v+" "+w);
+        System.out.println(v+" "+w); //Vergleich der Werte
 
         double rr = r*r;
               if (v < rr )
